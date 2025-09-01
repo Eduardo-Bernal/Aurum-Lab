@@ -1,0 +1,117 @@
+body{
+    background-color: var(--branco);
+    color: var(--texto-escuro);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vh;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 20px;    
+    text-align: center;
+    background-color: var(--fundo);
+    color: var(--branco);
+}
+ 
+.intro{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    
+}
+
+.intro span{
+    display: flex;
+    font-weight: 700;
+    font-size: 2em;
+ justify-content: flex-start;
+    
+}
+
+.logo{
+  width: 7vw;
+}
+.formularios{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.form-login-esquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 30vh;
+    width: 30vw;
+    gap: 16px;
+    margin-top: 5%;
+}
+
+.form-login-direita{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 30vh;
+    width: 30vw;
+    gap: 16px;
+    margin-top: 5%;
+}
+
+
+
+label{
+    font-weight: 600;
+
+}
+
+input{
+    padding: 12px;
+    border: 1px solid var(--borda);
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 32vw;
+   
+}
+
+
+
+.instrucao-senha{
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 100px;
+}
+.botao-login{
+    background-color: var(--fundo);
+    color: var(--amarelo);
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    width: 30%;
+}
+
+.botao-login:hover{
+    background-color: #26394E;
+    cursor: pointer;
+}
+
+.link-voltar{
+    text-align: center;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    font-weight: 600;
+    color: var(--texto-escuro);
+    margin-top: 2%;
+}
